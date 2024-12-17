@@ -1,0 +1,38 @@
+body {
+  background-color: antiquewhite;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-title {
+  text-align: center;
+  color: maroon;
+}
+.recipe-list {
+  list-style: none;
+  display: flex;
+}
+.recipe-list li {
+  margin-bottom: 5px;
+  margin: 0 auto 5px;
+}
+.recipe-list li a {
+  text-decoration: none;
+  color: red;
+}
+
+.recipe-card {
+  border: 5px solid maroon;
+  padding: 10px;
+  border-radius: 10px;
+}
+.lasagna-body h1 {
+  text-align: center;
+  color: goldenrod;
+}
+.lasagna-body img {
+  display: flex;
+  margin: 0 auto;
+}
